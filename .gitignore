@@ -1,3 +1,7 @@
+# IDEA
+NER_v1/data/
+NER_v1/test*.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
