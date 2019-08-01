@@ -1,6 +1,6 @@
 # NER
 Named Entity Recognition with CNN-LSTM-CRF 
-
+![](imgs/lstm_crf.png)
 
 > F1: 90.5%
 
