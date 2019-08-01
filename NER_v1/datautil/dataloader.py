@@ -42,7 +42,7 @@ BIO -> BIOES (Begin Inside Outside End Single)
 def bio2bioes(bio_tags):
     tag_len = len(bio_tags)
     for i, t in enumerate(bio_tags):
-        if 'B-' in t and (i+1 == tag_len or 'I' not in bio_tags[i+1]):
+        if 'B-' in t and (i+1 == tag_len or 'I-' not in bio_tags[i+1]):
             _type = bio_tags[i].split('-')[1]
             bio_tags[i] = 'S-' + _type
         elif 'I-' in t and (i+1 == tag_len or 'I-' not in bio_tags[i+1]):

@@ -38,6 +38,10 @@ if __name__ == '__main__':
     args.tag_size = wd_vocab.tag_size
     args.char_vocab_size = ch_vocab.vocab_size
     bilstm_crf = BiLSTMCRF(args, embedding_weights).to(args.device)
+    # GPU并行
+    # if torch.cuda.device_count() > 1:
+    #     bilstm_crf = nn.DataParallel(bilstm_crf, device_ids=[0, 1])  # 在指定编号的GPU上运行
+
     tagger = SequenceTagger(bilstm_crf, args, wd_vocab, ch_vocab)
     tagger.summary()
 
