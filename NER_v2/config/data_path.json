@@ -1,0 +1,12 @@
+{
+  "data": {
+    "train_path": "./data/conll2003/train.txt",
+    "dev_path": "./data/conll2003/valid.txt",
+    "test_path": "./data/conll2003/test.txt",
+    "embedding_weights": "./data/word2vec_40w_300.txt"
+  },
+  "vocab": {
+    "load_vocab": "./vocab/word_vocab.pkl",
+    "save_vocab": "./vocab/word_vocab.pkl"
+  }
+}
