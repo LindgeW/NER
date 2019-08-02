@@ -5,6 +5,8 @@ Named Entity Recognition with CNN-LSTM-CRF
 
 > F1 score: 90.5%
 
+resources: [pre-trained word embedding](http://www.limteng.com/research/2018/05/14/pretrained-word-embeddings.html)
+
 papers:
 + [Neural Architectures for Named Entity Recognition](https://arxiv.org/abs/1603.01360)
 + [Named Entity Recognition with Bidirectional LSTM-CNNs](https://arxiv.org/abs/1511.08308)
