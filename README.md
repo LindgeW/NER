@@ -8,3 +8,4 @@ Named Entity Recognition with CNN-LSTM-CRF
 papers:
 + [Neural Architectures for Named Entity Recognition](https://arxiv.org/abs/1603.01360)
 + [Named Entity Recognition with Bidirectional LSTM-CNNs](https://arxiv.org/abs/1511.08308)
++ [Reliability-aware Dynamic Feature Composition for Name Tagging](https://www.aclweb.org/anthology/P19-1016)
