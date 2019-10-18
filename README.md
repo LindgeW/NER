@@ -3,7 +3,7 @@ Named Entity Recognition with CNN-LSTM-CRF
 
 ![](imgs/lstm_crf.png)
 
-> F1 score: 90.5%
+> F1 score on CONLL2003: 90.5%
 
 resources: [pre-trained word embedding](http://www.limteng.com/research/2018/05/14/pretrained-word-embeddings.html)
 
